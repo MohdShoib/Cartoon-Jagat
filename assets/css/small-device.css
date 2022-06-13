@@ -1,0 +1,30 @@
+@media only screen and (max-width: 850px) {
+  body {
+    /*background-color: lightblue;*/
+  }
+
+  #bannerCard{
+  	left: 0;
+  	width: 100%;
+  	text-align: center
+  }
+  .social-icons{
+  	justify-content: center;
+  }
+  #featuredPost{
+  	margin-top: 150px;
+  }
+  .socialIcon .row{
+    /*text-align: left !important*/
+  }
+  .socialIcon .row .col-lg-2{
+    margin: 10px auto;
+  }
+
+}
+/*<!-- https://new.axilthemes.com/themes/blogar/ -->*/
+@media only screen and (max-width: 580px) {
+  .socialIcon a{
+    display: none;
+  }
+}
