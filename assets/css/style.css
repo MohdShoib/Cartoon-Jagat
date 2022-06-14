@@ -5,10 +5,12 @@ body{
 .container{
 	max-width: 1230px;
 }
+nav{
+	z-index: 1000;
+}
 .navbar-brand{
 	font-size: 1.5em;
-	font-weight: 800;
-	z-index: 1000;
+	font-weight: 800
 }
 .nav-link{
 	font-size: 14px;
@@ -188,4 +190,12 @@ footer .list-group-item{
 
 .page{
 	background-color: red
+}
+
+/*navbar toggler focus removed*/
+.navbar-toggler:focus{
+	box-shadow: none;
+}
+.navbar-toggler{
+	border-color: transparent;
 }
