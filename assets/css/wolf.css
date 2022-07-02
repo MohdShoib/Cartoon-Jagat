@@ -1,0 +1,9 @@
+#featured-image{
+	height: 90vh;
+	background-image:url(../img/wolf.jpg);
+/*	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: multiply;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
