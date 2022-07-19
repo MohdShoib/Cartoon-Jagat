@@ -1,6 +1,11 @@
 body{
-	background-color: #f0f2f5;
-  /*font-family: 'Poppins', sans-serif !important;*/
+background-color: #f0f2f5;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
 }
 .container{
 	max-width: 1230px;
