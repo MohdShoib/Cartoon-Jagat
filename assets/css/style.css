@@ -1,6 +1,6 @@
 body{
-	font-family: montserrat;
-	background-color: #f0f2f5
+	background-color: #f0f2f5;
+  /*font-family: 'Poppins', sans-serif !important;*/
 }
 .container{
 	max-width: 1230px;
@@ -9,13 +9,22 @@ nav{
 	z-index: 1000;
 }
 .navbar-brand{
-	font-size: 1.5em;
-	font-weight: 800
+	font-size: 1.9em;
+	color: #0dcaf0
 }
 .nav-link{
 	font-size: 14px;
 	font-weight: 700;
+	letter-spacing: 2.5px !important;
+	word-spacing: 5px;
+	text-transform: uppercase;
+}
+/*.nav-link{
 	letter-spacing: 1px;
+}*/
+
+.navbar-nav .nav-link.active{
+	color: #0dcaf0;
 }
 .bg-banner{
 	background-image: url('../img/buffalo.jpg');
@@ -25,24 +34,11 @@ nav{
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px
 }
-#bannerCard{
-	max-width: 690px !important;
-	bottom: -130px;
-	right: 150px;
-	border-radius: 10px;
-}
-
-#bannerCard a,
-.tag
-{
-	font-weight: 500;
-	text-transform: capitalize;
-}
 .author h5{
 	font-weight: 500;
 	font-size: 14px;
 }
-.author small{
+.author small, small{
 	font-size: 12px;
 	letter-spacing: 1.5px;
 	font-weight: 500;
@@ -77,9 +73,7 @@ nav{
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	border-radius: 5px;
 }
-#myTab .nav-item{
 
-}
 .nav-tabs{
 	border-bottom: none;
 	margin-bottom: 30px;
@@ -94,8 +88,12 @@ nav{
 }
 .text-muted{
 	letter-spacing: 2px;
-	font-weight: 500;
+	/*font-weight: 500;*/
 	font-size: 12px;
+}
+.rounded-bottom{
+	border-bottom-right-radius: 25px !important;
+	border-bottom-left-radius: 25px !important;
 }
 /*swipper css===============*/
 .swiper {
@@ -154,7 +152,7 @@ nav{
 }
 .socialIcon a{
 	color: #65676b;
-	font-weight: 500;
+	/*font-weight: 500;*/
 }
 
 .col-lg-2:hover a{
@@ -188,10 +186,6 @@ footer .list-group-item{
 	background-color: transparent !important;
 }
 
-.page{
-	background-color: red
-}
-
 /*navbar toggler focus removed*/
 .navbar-toggler:focus{
 	box-shadow: none;
@@ -200,21 +194,19 @@ footer .list-group-item{
 	border-color: transparent;
 }
 /*post page title box*/
-.title-box{
-	/*border:2px solid red;*/
-	display: inline-block;
-	padding: 20px;
-	background-color: rgba(0,0,0,0.5);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	text-align: center;
-	transform: translate(-50%, -50%);
-}
 article .container{
-	max-width: 720px;
+	max-width: 720px !important;
 }
 
 .post-banner{
 	object-fit: fill;
 }
+.tab-content .nav-link:hover{
+	color: purple
+}
+
+
+
+
+
+
