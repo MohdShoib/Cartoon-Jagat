@@ -7,19 +7,20 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
       <!-- font awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-      <!-- animation css -->
-      <link rel="stylesheet" href="./assets/css/animation.css">
+
       <!-- swipper js -->
       <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
       <!-- custom css -->
       <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- animations -->
+      <link rel="stylesheet" href="./assets/css/animation.css">
       <!-- small device -->
       <link rel="stylesheet" href="./assets/css/small-device.css">
    </head>
    <body>
       <!-- navbar ------------------------------------>
       <nav class="navbar py-3 shadow navbar-expand-md navbar-light" style="background-color: #ffffff">
-         <div class="container">
+         <div class="container p-0">
             <a class="navbar-brand" href="/">Cartoon Jagat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,137 +44,141 @@
          </div>
       </nav>
       <!-- header banner ------------------------------------>
-      <div class="container p-0">
+<!--       <div class="container p-0">
          <div class="bg-banner">
-         	<!-- card removed in new update -->
-<!--             <div class="position-absolute bg-white p-5" id="bannerCard">
-               <a href="" class="text-decoration-none text-danger tag">top story</a><br><br>
-               <a href="./pages/apni-bhens-ko-mardo.html" class="text-decoration-none text-dark">
-                  <h2>Apni bhens ko mardo!</h2>
-               </a>
-               <p>Bewakuf logom ko gyan na den warna wo aap hi ko bewakuf samjhenge.</p>
-               <div class="author">
-                  <div class="list-group list-group-horizontal-md">
-                     <div class="list-group-item border-0">
-                        <img src="./assets/img/admin.png" alt="" class="rounded-circle">
-                     </div>
-                     <div class="list-group-item  border-0 pt-3">
-                        <a href="/admin" class="d-inline nav-link">
-                           <h5 class="mb-0">Mohd Shoib</h5>
-                        </a>
-                        <small>July 16, 2022 | <a href="#" class="d-inline nav-link">Truth</a></small>
-                     </div>
-                     <div class="p-0 pt-3 list-group-item border-0">
-                        <ul class="social-icons list-group list-group-horizontal">
-                           <a  href="https://www.facebook.com/sharer/sharer.php?u=https://cartoonjagat.com/pages/murkho-ka-bahumat.html" target="_blank">
-                              <li class="list-group-item border-0">
-                                 <i class="fa-brands fa-facebook-f"></i>
-                              </li>
-                           </a>
-                           <a href="">
-                              <li class="list-group-item border-0">
-                                 <i class="fa-brands fa-twitter"></i>
-                              </li>
-                           </a>
-                           <a href="">
-                              <li class="list-group-item border-0">
-                                 <i class="fa-brands fa-linkedin-in"></i>
-                              </li>
-                           </a>
-                        </ul>
-                     </div>
-                     <div class="pt-3 list-group-item border-0">
-                        <a href="/pages/apni-bhens-ko-mardo.html">
-                        <button class="border border-primary border-3 px-4 rounded-pill btn btn-outline-primary">Read Story</button></a>
-                     </div>
-                  </div>
-               </div>
-            </div> -->
-         </div>
-      </div>
-      <!-- More Featured Stories. -->
-   <!--    <div class="container pb-5" id="featuredPost">
-         <h2 class="h2">More Featured Stories.</h2>
-         <div class="container p-0">
-            <div class="row">
-               <div class="col-md-6">
-                  <div class="bg-white p-5" id="moreFeaturedPost">
-                     <a href="" class="text-decoration-none text-danger tag">top story</a>
-                     <div class="container p-0">
-                        <div class="row align-items-center">
-                           <div class="col-sm-6">
-                              <a href="" class="text-decoration-none text-dark">
-                                 <h2 class="h4"> The golden touch!</h2>
-                              </a>
-                              <p>Greed will always lead to downfall.</p>
-                              <div class="author d-none d-sm-block">
-                                 <div class="list-group list-group-horizontal-lg">
-                                    <div class="list-group-item border-0">
-                                       <img src="./assets/img/admin.png" alt="" class="rounded-circle">
-                                    </div>
-                                    <div class="list-group-item  border-0 pt-3">
-                                       <a href="/admin" class="d-inline nav-link">
-                                          <h5 class="mb-0">Mohd Shoib</h5>
-                                       </a>
-                                       <small>June 08, 2022</small>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-6">
-                              <img src="./assets/img/golden.jpg" alt="" class="img-fluid rounded-circle">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-6 mt-4 mt-md-0">
-                  <div class="bg-white p-5" id="moreFeaturedPost">
-                     <a href="" class="text-decoration-none text-danger tag">top story</a>
-                     <div class="container p-0">
-                        <div class="row align-items-center">
-                           <div class="col-sm-6">
-                              <a href="" class="text-decoration-none text-dark">
-                                 <h2 class="h4"> The fox & the grapes!</h2>
-                              </a>
-                              <p>Never despise what we can’t have; nothing comes easy.</p>
-                              <div class="author d-none d-sm-block">
-                                 <div class="list-group list-group-horizontal-lg">
-                                    <div class="list-group-item border-0">
-                                       <img src="./assets/img/admin.png" alt="" class="rounded-circle">
-                                    </div>
-                                    <div class="list-group-item  border-0 pt-3">
-                                       <a href="/admin" class="d-inline nav-link">
-                                          <h5 class="mb-0">Mohd Shoib</h5>
-                                       </a>
-                                       <small>June 08, 2022</small>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-6">
-                              <img src="./assets/img/foxx.jpg" alt="" class="img-fluid rounded-circle">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+ 
          </div>
       </div> -->
-      <!-- full width banner -->
-      <div class="pt-5 fullWidthBanner">
-         <div class="bg-light m-0 pt-5">
-            <div class="container py-5">
-               <div id="fullWidthBanner" class="mb-5">
+<!-- carasol -->
+<div class="container">
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<a href="./pages/apni-bhens-ko-mardo.html">
+	      <img src="./assets/img/buffalo.jpg" class="rounded-bottom d-block w-100" alt="...">
+      </a>
+    </div>
+    <div class="carousel-item">
+    	<a href="./pages/raja-ke-teen-sawal.html">
+	      <img src="./assets/img/king.jpg" class="rounded-bottom d-block w-100" alt="...">
+      </a>
+    </div>
+    <div class="carousel-item">
+    	<a href="./pages/jadui-cake-ka-jharna.html">
+      <img src="./assets/img/cake.jpg" class="rounded-bottom d-block w-100" alt="...">
+      </a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+      <!-- stories list & card rows -->
+      <div class="bg-light py-5 mt-5">
+<div class="container">
+   <div class="row">
+      <!-- stories list -->
+      <div class="col-lg-4">
+         <div class="">
+            <div class="container pt-5">
+               <h2 class="h2 text-danger">New Stories</h2>
+            </div>
+            <!-- tabs -->
+            <div class="container">
+               <ul class="nav nav-tabs" id="myListTab">
+                 <li class="nav-item me-3">
+                   <button class="nav-link active" id="theProphet" data-bs-toggle="tab" data-bs-target="#theProphet-tab-pane" type="button" role="tab" aria-controls="theProphet-tab-pane" aria-selected="true">Recent</button>
+                 </li>
+
+                 <li class="nav-item me-3">
+                   <button class="nav-link" id="ottomon-tab" data-bs-toggle="tab" data-bs-target="#ottomon-tab-pane" type="button" role="tab" aria-controls="ottomon-tab-pane" aria-selected="false">Tales</button>
+                 </li>
+
+                 <li class="nav-item me-3" >
+                   <button class="nav-link" id="conquest-tab" data-bs-toggle="tab" data-bs-target="#conquest-tab-pane" type="button" role="tab" aria-controls="conquest-tab-pane" aria-selected="false">Inspiring</button>
+                 </li>
+               </ul>
+               <div class="tab-content" id="myListTabContent">
+                  <div class="tab-pane fade show active" id="theProphet-tab-pane" role="tabpanel" aria-labelledby="theProphet-tab" tabindex="0">
+                     <!-- the prophet tab list  -->
+                     <ol start="01">
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/raja-ke-teen-sawal.html" class="text-decoration-none nav-link m-0">
+                         		Raja ke teen sawal?
+                           </a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/jadui-cake-ka-jharna.html" class="text-decoration-none nav-link m-0">
+                             Jadui cake ka jharna!
+                           </a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/apni-bhens-ko-mardo.html" class="text-decoration-none nav-link m-0">Apni bhens ko mardo?</a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+
+                     </ol>
+                  </div>
+
+                  <div class="tab-pane fade" id="ottomon-tab-pane" role="tabpanel" aria-labelledby="ottomon-tab" tabindex="0">
+                     <ol type="01">
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/jadui-cake-ka-jharna.html" class="text-decoration-none nav-link m-0">
+                              Jadui cake ka jharna</
+                           </a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+
+                  
+                     </ol>
+                  </div>
+
+                  <div class="tab-pane fade" id="conquest-tab-pane" role="tabpanel" aria-labelledby="conquest-tab" tabindex="0">
+                     <ol start="01">
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/raja-ke-teen-sawal.html" class="text-decoration-none nav-link m-0">
+                              Raja ke teen sawal?
+                           </a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+
+                        <li class="ps-5 pb-5">
+                           <small class="text-danger">Top Story</small>
+                           <a href="./pages/apni-bhens-ko-mardo.html" class="text-decoration-none nav-link m-0">
+                              Apni bhens ko mardo?
+                           </a>
+                           <small class="text-muted">Mohd Shoib | July 16, 2022</small>
+                        </li>
+
+                     </ol>
+                  </div>
                </div>
             </div>
+            <!-- additional padding added -->
+            <div class="pb-5"></div>
          </div>
       </div>
-      <!-- post tabs start------------------ -->
-      <div class="bg-light pb-5">
+      <!-- video stories -->
+      <div class="col-lg-8">
+<!-- =========================================== -->
+      <div class="py-5">
          <div class="container">
-            <h2 class="h2">Motivation &amp; Inspiring Stories</h2>
+            <h2 class="h2 text-info">Popular Video Stories</h2>
          </div>
          <!-- tabs -->
          <div class="container">
@@ -185,238 +190,135 @@
                   <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Motivation</button>
                </li>
                <li class="nav-item me-3" role="presentation">
-                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Inspiring</button>
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Fairy Tales</button>
                </li>
-               <li class="nav-item me-3" role="presentation">
-                  <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+               <li class="nav-item pt-2 ms-5">
+                  <a href="stories.html" target="_blank" class="text-decoration-none">
+                  See all stories
+                  <i class="fa-solid fa-angles-right"></i>
+                  </a>
                </li>
             </ul>
             <div class="tab-content" id="myTabContent">
                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                  <!-- -------------------- -->
-                  <div class="card-group ">
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/buffalo-thumbnail.jpg" class="rounded-top card-img-top" alt="...">
+         <!-- --------------------=x===x==x=====xxx=xx==xx=x -->
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/buffalo-thumbnail.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                           <a href="/pages/apni-bhens-ko-mardo.html" class="text-decoration-none">
-                           <h5 class="card-title">Apni bhens ko mardo?</h5></a>
-                           <!-- <p class="card-text">Never judge anyone by the way they look.</p> -->
-                        </div>
-                        <div class="card-footer">
-                           <small class="text-muted">July 16, 2022</small>
-                        </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/cake-thumbnail.jpg" class="rounded-top card-img-top" alt="...">
-                        <div class="card-body">
-                           <a href="/pages/jadui-cake-ka-jharna.html" class="text-decoration-none">
-                           <h5 class="card-title">Jadui cake ka jharna!</h5></a>
-<!--                            <p class="card-text">Lying breaks trust — even if you’re telling the truth, no one believes a liar.</p> -->
-                        </div>
-                        <div class="card-footer">
-                           <small class="text-muted">July 16, 2022</small>
-                        </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/king-thumbnail.jpg" class="rounded-top card-img-top" alt="...">
-                        <div class="card-body">
-                           <a href="/pages/raja-ke-teen-sawal.html" class="text-decoration-none">
-                           <h5 class="card-title">Raja ke teen sawal?</h5></a>
-                           <!-- <p class="card-text">Never despise what we can’t have; nothing comes easy.</p> -->
-                        </div>
-                        <div class="card-footer">
-                           <small class="text-muted">May 03, 2022</small>
-                        </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <a href="">
-                        <img src="./assets/img/monkey-thubnail.jpg" class="card-img-top rounded-top" alt="..."></a>
-                        <div class="card-body">
-                           <a href="" class="text-decoration-none text-dark">
-                              <a href="/pages/murkho-ka-bahumat.html" class="text-decoration-none">
-                              <h5 class="card-title">Murkho ka bahumat!</h5></a>
+                           <a href="./pages/apni-bhens-ko-mardo.html" class="text-decoration-none">
+                              <h5 class="card-title">Apni bhens ko mardo?</h5>
                            </a>
-                           <!-- <p class="card-text">Greed will always lead to downfall.</p> -->
                         </div>
                         <div class="card-footer">
-                           <small class="text-muted">July 02, 2022</small>
+                           <small>July 16, 2022</small>
                         </div>
-                     </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/cake-thumbnail.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                           <a href="./pages/jadui-cake-ka-jharna.html" class="text-decoration-none">
+                              <h5 class="card-title">Jadui Cake ka jharna!</h5>
+                           </a>
+                        </div>
+                        <div class="card-footer">
+                           <small>July 16, 2022</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/king-thumbnail.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                           <a href="./pages/raja-ke-teen-sawal.html" class="text-decoration-none">
+                              <h5 class="card-title">Raja ke teen sawal?</h5>
+                           </a>
+                        </div>
+                        <div class="card-footer">
+                           <small>July 16, 2022</small>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <!-- -------------------- -->
+         <!-- --------------------=x===x==x=====xxx=xx==xx=x -->
                </div>
                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                  <!-- -------------------- -->
-                  <div class="card-group ">
-                     <div class="card m-2 border rounded">
-                        <a href="">
-                        <img src="./assets/img/golden.jpg" class="card-img-top rounded-top" alt="..."></a>
+         <!-- --------------------=x===x==x=====xxx=xx==xx=x -->
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/buffalo-thumbnail.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                           <a href="" class="text-decoration-none text-dark">
-                              <h5 class="card-title">The Golden Touch</h5>
+                           <a href="./pages/apni-bhens-ko-mardo.html" class="text-decoration-none">
+                              <h5 class="card-title">Apni bhens ko mardo?</h5>
                            </a>
-                           <p class="card-text">Greed will always lead to downfall.</p>
                         </div>
                         <div class="card-footer">
-                           <small class="text-muted">April 05, 2022</small>
+                           <small>July 16, 2022</small>
                         </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/rosee.jpg" class="rounded-top card-img-top" alt="...">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/monkey-thubnail.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                           <h5 class="card-title">The proud rose!</h5>
-                           <p class="card-text">Never judge anyone by the way they look.</p>
+                           <a href="./pages/murkho-ka-bahumat.html" class="text-decoration-none">
+                              <h5 class="card-title">Apni bhens ko mardo?</h5>
+                           </a>
                         </div>
                         <div class="card-footer">
-                           <small class="text-muted">June 09, 2022</small>
+                           <small>July 02, 2022</small>
                         </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/wolff.jpg" class="rounded-top card-img-top" alt="...">
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="./assets/img/king-thumbnail.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                           <h5 class="card-title">The boy who cried wolf!</h5>
-                           <p class="card-text">Lying breaks trust — even if you’re telling the truth, no one believes a liar.</p>
+                           <a href="./pages/raja-ke-teen-sawal.html" class="text-decoration-none">
+                              <h5 class="card-title">Raja ke teen sawal?</h5>
+                           </a>
                         </div>
                         <div class="card-footer">
-                           <small class="text-muted">June 06, 2022</small>
+                           <small>July 16, 2022</small>
                         </div>
-                     </div>
-                     <div class="card m-2 border rounded">
-                        <img src="./assets/img/foxx.jpg" class="rounded-top card-img-top" alt="...">
-                        <div class="card-body">
-                           <h5 class="card-title">The fox & the grapes!</h5>
-                           <p class="card-text">Never despise what we can’t have; nothing comes easy.</p>
-                        </div>
-                        <div class="card-footer">
-                           <small class="text-muted">May 03, 2022</small>
-                        </div>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-                  <!-- -------------------- -->
+         <!-- --------------------=x===x==x=====xxx=xx==xx=x -->
 
                </div>
                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                  <!-- ---------------------------------- -->
-                  <p>Area for the Inspiring story</p>
-                  <!-- ----------------------------------- -->
+               <div class="row row-cols-1 row-cols-md-3 g-4">
+                 <div class="col">
+                   <div class="card">
+                     <img src="./assets/img/cake-thumbnail.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <a href="./pages/jadui-cake-ka-jharna.html" class="text-decoration-none">
+                           <h5 class="card-title">Jadui cake ka jharna!</h5>
+                        </a>
+                     </div>
+                     <div class="card-footer">
+                        <small>July 16, 2022</small>
+                     </div>
+                   </div>
+                 </div>
+
+
+               </div>
                </div>
             </div>
          </div>
-         <!-- additional padding added -->
-         <div class="pb-5"></div>
       </div> <!--tabs end here-->
+      </div>
+   </div>
+</div>
 
-      <!-- most popular list tab -->
-      <div class="bg-light pt-5">
-         <div class="container pt-5">
-            <h2 class="h2">Most Popular Stories</h2>
-         </div>
-         <!-- tabs -->
-         <div class="container">
-            <ul class="nav nav-tabs" id="myListTab">
-              <li class="nav-item me-3">
-                <button class="nav-link active" id="theProphet" data-bs-toggle="tab" data-bs-target="#theProphet-tab-pane" type="button" role="tab" aria-controls="theProphet-tab-pane" aria-selected="true">The Prophet</button>
-              </li>
-
-              <li class="nav-item me-3">
-                <button class="nav-link" id="ottomon-tab" data-bs-toggle="tab" data-bs-target="#ottomon-tab-pane" type="button" role="tab" aria-controls="ottomon-tab-pane" aria-selected="false">The Ottomon</button>
-              </li>
-
-              <li class="nav-item me-3" >
-                <button class="nav-link" id="conquest-tab" data-bs-toggle="tab" data-bs-target="#conquest-tab-pane" type="button" role="tab" aria-controls="conquest-tab-pane" aria-selected="false">The Conquest</button>
-              </li>
-            </ul>
-            <div class="tab-content" id="myListTabContent">
-               <div class="tab-pane fade show active" id="theProphet-tab-pane" role="tabpanel" aria-labelledby="theProphet-tab" tabindex="0">
-                  <!-- the prophet tab list  -->
-                  <ol start="01">
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Muhammadﷺ </h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | May 10, 2022</small>
-                     </li>
-
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Ibrahim KalimUllah</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Yusuf (Joseph)</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-
-                  </ol>
-               </div>
-
-               <div class="tab-pane fade" id="ottomon-tab-pane" role="tabpanel" aria-labelledby="ottomon-tab" tabindex="0">
-                  <ol type="01">
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Ertugrul Ghazi (Bey of Kayi Obasi)</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | May 10, 2022</small>
-                     </li>
-
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Bamsi Berek</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The Turgut Bey</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-
-                  </ol>
-               </div>
-
-               <div class="tab-pane fade" id="conquest-tab-pane" role="tabpanel" aria-labelledby="conquest-tab" tabindex="0">
-                  <ol start="01">
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The conquest of Makkah</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | May 10, 2022</small>
-                     </li>
-
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The conquest of Jeruslaem</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-                     <li class="ps-5 pb-5">
-                        <small class="text-danger">Top Story</small>
-                        <a href="#" class="text-decoration-none nav-link m-0">
-                           <h2>The conquest of Istanbul</h2>
-                        </a>
-                        <small class="text-muted">Mohd Shoib | June 10, 2022</small>
-                     </li>
-
-                  </ol>
-               </div>
-            </div>
-         </div>
-         <!-- additional padding added -->
-         <div class="pb-5"></div>
-      </div> <!--most popular tabs end here-->
-
+      </div>
+ 
       <!-- social sharing icon banner -->
       <div class="socialIcon container my-5 bg-light py-5 rounded">
          <div class="row text-center pe-2">
@@ -435,7 +337,7 @@
             <div class="col-4 col-lg-2 youtube">
                <i class="fa-brands fa-youtube"></i>
                <span class="ms-3">
-                  <a href="#" class="text-decoration-none">Youtube</a>
+                  <a href="https://www.youtube.com/channel/UCJpRc3Ch6817rtEAJlBuQmA" class="text-decoration-none">Youtube</a>
                </span>
             </div>
             <div class="col-4 col-lg-2 linkedin">
@@ -458,18 +360,27 @@
             </div>
          </div>
       </div>
+      <!-- full width banner -->
+      <div class="fullWidthBanner">
+         <div class="m-0">
+            <div class="container pb-5">
+               <div id="fullWidthBanner" class="mb-5">
+               </div>
+            </div>
+         </div>
+      </div>
 
       <!-- footer -->
       <footer class="bg-light py-5">
          <div class="container">
             <div class="row">
-               <div class="col-lg-4">
+               <div class="col-lg-3">
                   <ul class="list-group">
                      <li class="list-group-item border-0 p-0 pb-4"><b>About Us</b></li>
                   </ul>
                   <p style="text-align: justify;">Cartton Jagat is a Professional Stories Platform. Here we will provide you only interesting content, which you will like very much. We're dedicated to providing you the best of Stories , with a focus on dependability and Stories for children. We're working to turn our passion for Stories into a booming online website. We hope you enjoy our Stories as much as we enjoy offering them to you.</p>
                </div>
-               <div class="col-lg-4">
+               <div class="col-lg-3">
                   <ul class="list-group">
                      <li class="list-group-item border-0 p-0 pb-4">
                         <b>Contact Us</b>
@@ -483,7 +394,7 @@
                         Eidgah Rd, Hazrat Bilal Nagar, <br>
                         Sofi Nagar, Washim, Maharashtra 444505,India
                      </li>
-                     <li class="list-group-item border-0 p-0 py-2">
+                     <li class="list-group-item border-0 p-0 py-2 pt-5">
                         <i class="fa-solid fa-phone"></i>
                         <span class="h6">Mobile Number</span>
                      </li>
@@ -492,7 +403,7 @@
                      </li>
                   </ul>
                </div>
-               <div class="col-lg-4">
+               <div class="col-lg-3">
                   <ul class="list-group">
                      <li class="list-group-item border-0 p-0 pb-4">
                         <b>Important Links</b>
@@ -506,7 +417,7 @@
                      <li class="list-group-item border-0 p-0">
                         <a href="/pages/about-us.html" class="text-decoration-none">Terms &amp; Conditions</a>
                      </li>
-                     <li class="list-group-item border-0 p-0 py-2 pt-4">
+                     <li class="list-group-item border-0 p-0 py-2 pt-5">
                         <i class="fa-solid fa-users-viewfinder"></i>
                         <span class="h6">Total visitors</span>
                      </li>
@@ -515,27 +426,30 @@
                         <span style="font-size: 10px" class="text-info">* Number of times website is viewed by users!</span>
                      </li>
                </div>
+               <div class="col-lg-3">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14987.069635657781!2d77.12848707723836!3d20.10200745964775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd0e307ba108eb9%3A0xc040d92eacdf7fc8!2sRADIO%20VATSAGULM%2090.8%20FM!5e0!3m2!1sen!2sin!4v1655175489582!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
 
             <hr>
             <!-- footer title and social icons -->
             <div class="py-1 d-flex flex-column flex-sm-row justify-content-between">
-               <h2 class="h3" style="font-weight: 600">Cartoon Jagat</h2>
+               <h2 class="h3 text-info" style="font-weight: 600">Cartoon Jagat</h2>
                <div>
                   <ul class="list-group list-group-horizontal">
                     <li class="ps-0 list-group-item border-0" style="font-weight: 600;">Follow us</li>
                     <li class="list-group-item border-0">
-                     <a href="#" class="nav-link">
+                     <a href="https://www.facebook.com/cartoonjagat/" class="nav-link">
                        <i class="fa-brands fa-facebook-f"></i>
                      </a>
                     </li>
                     <li class="list-group-item border-0 ">
-                       <a href="#" class="nav-link">
+                       <a href="https://twitter.com/CartoonJagat" class="nav-link">
                           <i class="fa-brands fa-twitter"></i>
                        </a>
                     </li>
                     <li class="list-group-item border-0 ">
-                       <a href="#" class="nav-link">
+                       <a href="https://www.youtube.com/channel/UCJpRc3Ch6817rtEAJlBuQmA" class="nav-link">
                           <i class="fa-brands fa-youtube"></i>
                        </a>
                     </li>
@@ -546,11 +460,12 @@
             <!-- footer bottom -->
             <div class="d-flex flex-column flex-md-row justify-content-between">
                <ul class="d-flex flex-column flex-md-row list-group list-group-horizontal pt-3 ">
-                 <li class="list-group-item border-0 p-0 pe-4">Contact Us</li>
-                 <li class="list-group-item border-0 p-0 pe-4">Terms Of Services</li>
-                 <li class="list-group-item border-0 p-0 pe-4">Developer</li>
+                 <li class="list-group-item border-0 p-0 pe-4"><a href="./pages/contact-us.html" class="text-decoration-none">Contact Us</a></li>
+                 <li class="list-group-item border-0 p-0 pe-4">
+                 	<a href="./pages/terms-condition.html" class="text-decoration-none">Terms Of Services</a></li>
+                 <li class="list-group-item border-0 p-0 pe-4"><a href="https://izharulhaque.github.io/complete-website-solution/" class="text-decoration-none">Developer</a></li>
                </ul>
-               <p class="pt-3">© 2022. All rights reserved by <a href="https://izharulhaque.github.io/complete-website-solution/" class="text-decoration-none">CWI Agency</a>.</p>
+               <p class="pt-3">© 2022. All rights reserved by <a href="https://izharulhaque.github.io/complete-website-solution/" class="text-decoration-none">CWS Web Agency</a>.</p>
             </div>
          </div>
       </footer>
