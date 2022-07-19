@@ -19,6 +19,9 @@ nav{
 	word-spacing: 5px;
 	text-transform: uppercase;
 }
+nav .nav-link{
+	padding-left: 45px !important
+}
 /*.nav-link{
 	letter-spacing: 1px;
 }*/
