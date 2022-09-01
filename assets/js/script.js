@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // visit counter
+  visit counter
 	$.getJSON("https://api.countapi.xyz/hit/cartoonjagat.com/visits", function(response) {
 	    $("#visits").text(response.value);
 	});
